@@ -1,0 +1,11 @@
+[package]
+name = "ping"
+version = "0.1.0"
+authors = ["sryze@example.com"]
+
+[dependencies]
+libc = "*"
+
+[[bin]]
+name = "ping"
+path = "src/ping.rs"
